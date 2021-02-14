@@ -51,6 +51,8 @@ def deEmojify(text):
 import os
 import psycopg2
 
+
+#Change the credentials respectively.
 dbconn = psycopg2.connect("host=ec2-52-207-25-133.compute-1.amazonaws.com dbname=d8e9au4m77k9b1 user=twvlbubsgabvpj password=53cf31e1928ac9f0ec3ec5554a92bfa96ddb693b7bb3b31df2bbf3784cc66f6a")
 if dbconn:
     print("Connected")
