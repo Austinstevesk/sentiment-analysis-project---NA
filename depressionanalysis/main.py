@@ -149,6 +149,8 @@ class MyStreamListener(tweepy.StreamListener):
 place_id = places[0].id
 public_tweets = api.search(q="place:%s" %place_id)
 '''
+
+#Limiting tweets to a certain geographical location
 GEOBOX_WORLD = [-180,-90,180,90]
 GEOBOX_NAIROBI = [36.542329,-1.538666,37.186403,-1.052647]
 while True:
