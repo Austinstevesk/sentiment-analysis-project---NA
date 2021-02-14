@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+
+#This is the main file
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
